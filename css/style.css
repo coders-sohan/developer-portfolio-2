@@ -54,3 +54,9 @@ p{
     padding: 10px 30px;
     color: white;border-radius: 5px;
 }
+
+.dream-big{
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}

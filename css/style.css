@@ -34,6 +34,10 @@ p{
     color: tomato;
 }
 
+.yellow-color{
+    color: #FFA800;
+}
+
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
@@ -59,4 +63,52 @@ p{
     background-image: url(../img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exp-area{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-sec-header{
+    text-align: center;
+    color: #FFA800;
+    padding-bottom: 2%;
+}
+
+.exp-header{
+    font-size: 40px;
+}
+
+.half-width .exp-date{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.exp-items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 35px grey;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+#full-stack-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+}
+
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(54, 54, 54);
 }
